@@ -31,3 +31,6 @@ end
 
 
 return BuildModel(48, 256, 12)
+
+--  m = require "policy_model.lua"
+--  for i = 1,10 do m:forward(torch.Tensor(48,19,19):uniform()) end
